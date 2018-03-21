@@ -8,20 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		E6D249BF2062E467005E21E0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D249BE2062E467005E21E0 /* AppDelegate.swift */; };
-		E6D249C12062E467005E21E0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D249C02062E467005E21E0 /* ViewController.swift */; };
 		E6D249C42062E467005E21E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6D249C22062E467005E21E0 /* Main.storyboard */; };
 		E6D249C62062E467005E21E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6D249C52062E467005E21E0 /* Assets.xcassets */; };
 		E6D249C92062E467005E21E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6D249C72062E467005E21E0 /* LaunchScreen.storyboard */; };
+		E6D249D32062E713005E21E0 /* Home-25.png in Resources */ = {isa = PBXBuildFile; fileRef = E6D249D12062E713005E21E0 /* Home-25.png */; };
+		E6D249D42062E713005E21E0 /* Calendar-25.png in Resources */ = {isa = PBXBuildFile; fileRef = E6D249D22062E713005E21E0 /* Calendar-25.png */; };
+		E6D249D62062E899005E21E0 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D249D52062E899005E21E0 /* HomeViewController.swift */; };
+		E6D249D82062EE04005E21E0 /* photos-simple-7.png in Resources */ = {isa = PBXBuildFile; fileRef = E6D249D72062EE04005E21E0 /* photos-simple-7.png */; };
+		E6D249DA2062EE16005E21E0 /* newspaper-7.png in Resources */ = {isa = PBXBuildFile; fileRef = E6D249D92062EE16005E21E0 /* newspaper-7.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E6D249BB2062E467005E21E0 /* TabBarDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabBarDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6D249BE2062E467005E21E0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E6D249C02062E467005E21E0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E6D249C32062E467005E21E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E6D249C52062E467005E21E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E6D249C82062E467005E21E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E6D249CA2062E467005E21E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6D249D12062E713005E21E0 /* Home-25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Home-25.png"; sourceTree = "<group>"; };
+		E6D249D22062E713005E21E0 /* Calendar-25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Calendar-25.png"; sourceTree = "<group>"; };
+		E6D249D52062E899005E21E0 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		E6D249D72062EE04005E21E0 /* photos-simple-7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "photos-simple-7.png"; sourceTree = "<group>"; };
+		E6D249D92062EE16005E21E0 /* newspaper-7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "newspaper-7.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,13 +63,25 @@
 			isa = PBXGroup;
 			children = (
 				E6D249BE2062E467005E21E0 /* AppDelegate.swift */,
-				E6D249C02062E467005E21E0 /* ViewController.swift */,
 				E6D249C22062E467005E21E0 /* Main.storyboard */,
+				E6D249D52062E899005E21E0 /* HomeViewController.swift */,
 				E6D249C52062E467005E21E0 /* Assets.xcassets */,
 				E6D249C72062E467005E21E0 /* LaunchScreen.storyboard */,
 				E6D249CA2062E467005E21E0 /* Info.plist */,
+				E6D249D02062E713005E21E0 /* icons */,
 			);
 			path = TabBarDemo;
+			sourceTree = "<group>";
+		};
+		E6D249D02062E713005E21E0 /* icons */ = {
+			isa = PBXGroup;
+			children = (
+				E6D249D72062EE04005E21E0 /* photos-simple-7.png */,
+				E6D249D12062E713005E21E0 /* Home-25.png */,
+				E6D249D22062E713005E21E0 /* Calendar-25.png */,
+				E6D249D92062EE16005E21E0 /* newspaper-7.png */,
+			);
+			path = icons;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,9 +143,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E6D249D82062EE04005E21E0 /* photos-simple-7.png in Resources */,
 				E6D249C92062E467005E21E0 /* LaunchScreen.storyboard in Resources */,
 				E6D249C62062E467005E21E0 /* Assets.xcassets in Resources */,
 				E6D249C42062E467005E21E0 /* Main.storyboard in Resources */,
+				E6D249D42062E713005E21E0 /* Calendar-25.png in Resources */,
+				E6D249DA2062EE16005E21E0 /* newspaper-7.png in Resources */,
+				E6D249D32062E713005E21E0 /* Home-25.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,8 +160,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E6D249C12062E467005E21E0 /* ViewController.swift in Sources */,
 				E6D249BF2062E467005E21E0 /* AppDelegate.swift in Sources */,
+				E6D249D62062E899005E21E0 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
